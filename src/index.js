@@ -18,4 +18,3 @@ const commandFolders = fs.readdirSync("./src/commands");
   client.handleCommands(commandFolders, "./src/commands");
   client.login(process.env.token)
 })();
-//together we can 
